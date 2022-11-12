@@ -122,7 +122,7 @@ public class TestAddTag {
 	@Test
 	public void tc7TestLogout(){
 		tagFormPage.clickProfile();
-		tagFormPage.clickLogout();
+		tagFormPage.clickLogout(); //klikne
 		
 		assertEquals(driver.getCurrentUrl(), "https://testblog.kurs-qa.cubes.edu.rs/login");
 	}
